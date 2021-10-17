@@ -25,7 +25,7 @@ function qb () {
 }
 lampa.addEventListener('dblclick', qb);
 
-lampa.addEventListener('mousemove', on);
+lampa.addEventListener('mouseover', on);
 
 lampa.addEventListener('mouseleave', off);
 
