@@ -8,17 +8,14 @@ function fail () {
  
 function on(){
 
-    if(!fail () ){
     lampa.src = "imagem/acessa.jpg"
-}
+
 }
 ligada.addEventListener('click', on );
 
 function off(){
 
-    if (!fail ()){
     lampa.src = "imagem/apagada.jpg";
-    }
 
 }
 desligado.addEventListener('click', off);
