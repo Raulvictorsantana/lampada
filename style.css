@@ -1,0 +1,16 @@
+header,main {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    width: 80px;
+    border-radius: 10px;
+    background-color: rgb(158, 148, 132);
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color:rgb(172, 165, 165);
+}
