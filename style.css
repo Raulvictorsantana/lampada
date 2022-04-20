@@ -1,3 +1,7 @@
+
+ body{
+     box-sizing: border-box;
+ }
 header,main {
     justify-content: center;
     display: flex;
@@ -7,10 +11,10 @@ header,main {
 button{
     width: 80px;
     border-radius: 10px;
-    background-color: rgb(158, 148, 132);
+    background-color: rgb(182, 175, 165);
     cursor: pointer;
     
 }
 button:hover{
-    background-color:rgb(172, 165, 165);
+    background-color:rgb(156, 152, 152);
 }
